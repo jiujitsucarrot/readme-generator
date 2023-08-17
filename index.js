@@ -39,25 +39,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
-function generateMarkdown(data) {
-    return `# ${data.title}
-
-## Description
-${data.description || 'Add a project description here.'}
-
-## Author
-${data.author || 'Anonymous'}
-
-## UserStory
-${data.userStory || 'User Story'}
-
-## AcceptanceCriteria
-${data.acceptanceCriteria || 'Acceptance Criteria'}
-
-${renderLicenseSection(data.license)}
-
-    `;
-}
-
-module.exports = generateMarkdown
