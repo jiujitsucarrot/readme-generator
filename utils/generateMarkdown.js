@@ -39,7 +39,9 @@ function renderLicenseSection(license) {
 
   return `## License
   
-  This project is licensed under the [${license}](${renderLicenseLink(license)}) license.`;
+  This project is licensed under the [${license}](${renderLicenseLink(license)}) license.
+  
+  ${renderLicenseBadge(license)}`;
 }
 
 // TODO: Create a function to generate markdown for README
@@ -49,19 +51,31 @@ function generateMarkdown(data) {
   ## Description
 ${data.description || 'Add a project description here.'}
 
-## Author
-${data.author || 'Anonymous'}
+## Table  of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-## User Story
-${data.userStory || 'User Story'}
+## Installation
+${data.installation || 'Installation instructions here.'}
 
-## Acceptance Criteria
-${data.acceptanceCriteria || 'Acceptance Criteria'}
+## Usage
+${data.usage || 'Usage information here.'}
 
-## Deployed Links
-${data.deployedLinks || 'Deployed Links'}
+${renderLicenseSection(data.license)}
 
-${renderLicenseSection(data.license)}`;
+## Contributing
+${data.contribution || 'Contribution guidelines here.'}
+
+## Tests
+${data.tests || 'Test instructions here.'}
+
+## Questions
+For any questions, please contact ${data.author} via [Github](https://github.com/${data.githubUsername}) or email at ${data.email}.
+`;
 
 }
 

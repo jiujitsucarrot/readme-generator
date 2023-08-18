@@ -15,6 +15,30 @@ const questions = [
     },
 
     {
+        type: 'input',
+        name: 'installation',
+        message: 'Please provide installation instructions here:'
+    },
+
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide usage information here:'
+    },
+
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'Please provide contribution guidelines here:'
+    },
+
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Please provide test instructions here:'
+    },
+
+    {
         type: 'list',
         name: 'license',
         message: 'Choose a license for your application:',
