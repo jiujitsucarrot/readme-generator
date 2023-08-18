@@ -1,10 +1,10 @@
-# README Generator
+# jiujitsucarrot
 
   ## Description
-Add a project description here.
+highlight reel
 
 ## Author
-Anonymous
+Tanner Norris
 
 ## User Story
 User Story
@@ -15,3 +15,6 @@ Acceptance Criteria
 ## Deployed Links
 Deployed Links
 
+## License
+  
+  This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.

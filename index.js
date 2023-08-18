@@ -7,6 +7,37 @@ const questions = [
         name: 'title',
         message: 'What is the title of your project?'
     },
+
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Please provide a description of your project:'
+    },
+
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license for your application:',
+        choices: ['MIT', 'Apache 2.0', 'GNU GPLv3', 'None']  
+    },
+
+    {
+        type: 'input',
+        name: 'author',
+        message: 'What is your name?'
+    },
+
+    {
+        type: 'input',
+        name: 'githubUsername',
+        message: 'What is your GitHub username?'
+    },
+
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?'
+    },
 ];
 
 const fs = require('fs');
