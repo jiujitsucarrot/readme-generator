@@ -1,7 +1,7 @@
 # README Generator
 
   ## Description
-This project will create a high quality README file based on the answers and information given by the user.
+This application will retrieve data from the user to create a high quality README file.
 
 ## Table  of Contents
 - [Installation](#installation)
@@ -12,10 +12,10 @@ This project will create a high quality README file based on the answers and inf
 - [Questions](#questions)
 
 ## Installation
-Install node and melt your brain.
+Install node.js and run in an integrated terminal.
 
 ## Usage
-Usage for this application is to create a README file using node.js
+To develop a high quality README file quickly for the user.
 
 ## License
   
@@ -24,10 +24,10 @@ Usage for this application is to create a README file using node.js
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
-Will make things easier for the user to complete their README 
+Become a coder and get your brain melted daily.
 
 ## Tests
-Open intergrated terminal, type in node index.js followed by enter. Have a great time.
+Remember to test, test, test.
 
 ## Questions
 For any questions, please contact Tanner Norris via [Github](https://github.com/jiujitsucarrot) or email at tanner.norris@yahoo.com.
