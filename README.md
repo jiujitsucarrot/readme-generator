@@ -31,3 +31,6 @@ I can tell you one thing, always test your code. I'll modify this portion of the
 
 ## Questions
 For any questions, please contact Tanner Norris via [Github](https://github.com/jiujitsucarrot) or email at tanner.norris@yahoo.com.
+
+## Video Submission Link
+* https://www.youtube.com/watch?v=jBr_5s8s1VI&t=330s
